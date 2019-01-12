@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day Care Sorter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="draft.css">
+</head>
+<body>
+
+	<div class="position-fixed">
+		<nav class="navbar" id="bar-color">
+			<ul>
+				<a class="navbar-brand float-left" id="bar-item-color" href="draft.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+				<div class="dropdown navbar-brand float-left nav-dropdown">
+					<a class="dropbtn" href="#projects">Projects</a>
+					<div class="dropdown-content">
+						<a href="website.html" class="extra-small">My Website</a>
+						<a href="minesweeper.html" class="extra-small">Minesweeper</a>
+						<a href="daycaresorter.html" class="extra-small">Daycaresorter</a>
+						<a href="pokerhand.html" class="extra-small">Pokerhand</a>
+					</div>
+				</div>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="end">
+		<center><h1 class="bigger special-padding cust-offset" id="heading">About the program</h1></center>
+		<div class="small normal python-padding"><center><a href="https://github.com/KyleGwon/Daycares/blob/master/Daycaresorter.py" id="bright-special" class="underline-animation">Check out the code for Daycaresorter.py here!</a></center></div>
+		<center><p class="small normal python-padding">Completion Date: August 15, 2018</p></center>
+		<center><p class="heading heading-padding">Program Functionality</p>
+			<p class="small normal">This program parses through a set of data about daycares from <a href="https://www.ocfs.ny.gov/main/childcare/ccfs_template.asp" id="bright-special" class="underline-animation">ocfs.ny.gov</a>. It converts the file, line by line, and takes the necessary information and adds it to another file. Each daycare will be represented by a line in the output file.</p>
+			<p class="heading heading-padding">Planning</p>
+				<p class="small normal">Before I started to program, I analyzed the data, and ways to get the information I needed. One such example being that before the name of each daycare, there would be a string that said, "Click here for more information". Here are some notes I took while studying the data:</p>
+				<img class="images" src="daycare-sorter-notes.JPG">
+			<p class="heading heading-padding">Creating</p>
+				<p class="small normal">The first step was to grab the info from the data file, and put it into something python can read, like a list. Each line that was pulled from the data file was an element in the new list. Now that I had the data, I could convert the methods from ideas to code. This was an easy task, just checking each line in a certain order. Beginner coders with the knowledge of how to use if, elif, and else statements in python could do this part. The rest of the project is just adding the data to the csv, <i>comma separated values</i>, file. From there, you can import the csv file onto a Google Sheets file or a Microsoft Excel file.</p>
+			<p class="heading heading-padding">What I Learned</p>
+				<p class="small normal">There were many things I learned while doing this projects. One, and the most important, thing that I learned was how to parse data. Another big thing that I learned was how to use command line arguments. I also learned how to read from a data file, as well as write to a comma separated values file.</p>
+		</center>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
+</body>
+</html>

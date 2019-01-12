@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day Care Sorter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="draft.css">
+</head>
+<body>
+
+	<div class="position-fixed">
+		<nav class="navbar" id="bar-color">
+			<ul>
+				<a class="navbar-brand float-left" id="bar-item-color" href="draft.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+				<div class="dropdown navbar-brand float-left nav-dropdown">
+					<a class="dropbtn" href="#projects">Projects</a>
+					<div class="dropdown-content">
+						<a href="website.html" class="extra-small">My Website</a>
+						<a href="minesweeper.html" class="extra-small">Minesweeper</a>
+						<a href="daycaresorter.html" class="extra-small">Daycaresorter</a>
+						<a href="pokerhand.html" class="extra-small">Pokerhand</a>
+					</div>
+				</div>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="end">
+		<center><h1 class="bigger special-padding cust-offset" id="heading">About the program</h1></center>
+		<div class="small normal python-padding"><center><a href="https://github.com/KyleGwon/Minesweeper/blob/master/Minesweeper.py" id="bright-special" class="underline-animation">Check out the code for Minesweeper.py here!</a></center></div>
+		<center><p class="small normal python-padding">Completion Date: June 2, 2018</p></center>
+			<center><p class="heading heading-padding">Program Functionality</p>
+				<p class="small normal">This program uses graphics to create a remake of Minesweeper.</p>
+			<p class="heading heading-padding">Planning</p>
+				<p class="small normal">Before I got to making the game, I had to play it. There were notes I took on certain features. Here are some of the notes:</p>
+				<img class="images" src="minesweeper-notes.jpg">
+			<p class="heading heading-padding">Functions</p>
+				<div class="cust-container">
+					<div class="row">
+						<div class="col-md-6">
+							<center><p class="small normal"><span class="sub-heading">bombGenerator()</span><br>Uses a random number generator to create the bombs. Returns the positions of the bombs.</p></center>
+						</div>
+						<div class="col-md-6">
+							<center><p class="small normal"><span class="sub-heading">findBombsNear()</span><br>Checks if the tile is a bomb. Also checks the tiles around in a 1 by 1 radius. Returns whether it is a bomb, and how many bombs are around it.</p></center>
+						</div>
+					</div>
+					<div class="row row-padding">
+						<div class="col-md-6">
+							<center><p class="small normal"><span class="sub-heading">createGrid()</span><br>Creates eight vertical and eight horizontal lines on the window; a 9 by 9 grid.</p></center>
+						</div>
+						<div class="col-md-6">
+							<center><p class="small normal"><span class="sub-heading">returnSquares()</span><br>Uses the data from <i>bombGenerator()</i> to make each each tile a variable set to the class <i>Square()</i>. Returns a list of all the tiles.</p></center>
+						</div>
+					</div>					
+					<div class="row row-padding">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<span class="heading"><i>Square</i> Class</span>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+					<div class="row row-padding">
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">__init__()</span><br>This class is automatically initialized when a varible is set to <i>Square()</i>. It sets up its instances so that there are not as many parameters later.</p></center>
+						</div>
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">getRevealed()</span><br>Returns whether the tile is revealed or not.</p></center>
+						</div>
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">bombsNear()</span><br>Returns 'B' if it is a bomb. If it is not a bomb, it returns the number of bombs around it.</p></center>
+						</div>
+					</div>
+					<div class="row row-padding">
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">getBomb()</span><br>Returns whether the tile is a bomb.</p></center>
+						</div>
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">flag()</span><br>Flags the tile on the window.</p></center>
+						</div>
+						<div class="col-md-4">
+							<center><p class="small normal"><span class="sub-heading">getFlagged()</span><br>Returns whether the tile is flagger or not.</p></center>
+						</div>
+					</div>
+				</div>
+			<p class="heading heading-padding">What I Learned</p>
+				<p class="small normal">For this project, I didn't learn new content, but rather, extended my knowledge of it. The two things that I expanded my knowledge on were classes and graphics. I already knew them, but wasn't as familiar with them. Now, since I got more experience, I know how to use them better in my code.</p></center>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
+</body>
+</html>

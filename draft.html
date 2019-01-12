@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="draft.css">
+</head>
+
+
+<body id="main">
+	<div class="position-fixed">
+		<nav class="navbar" id="bar-color">
+			<ul>
+				<a class="navbar-brand float-left" id="bar-item-color" href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+				<a class="navbar-brand float-left nav-anchor" id="bar-item-color" href="#about-me">
+					About Me
+				</a>
+				<a class="navbar-brand float-left nav-anchor" id="bar-item-color" href="#coding-background">
+					Coding Background
+				</a>
+				<div class="dropdown navbar-brand float-left nav-dropdown">
+					<a class="dropbtn" href="#projects">Projects</a>
+					<div class="dropdown-content">
+						<a href="website.html" class="extra-small">My Website</a>
+						<a href="minesweeper.html" class="extra-small">Minesweeper</a>
+						<a href="daycaresorter.html" class="extra-small">Daycaresorter</a>
+						<a href="pokerhand.html" class="extra-small">Pokerhand</a>
+					</div>
+				</div>
+				<a class="navbar-brand float-left nav-anchor nav-item-color" onclick="openNav()">Contact Me</a>
+			</ul>
+		</nav>
+	</div>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="https://www.instagram.com/kyle_gwon">Instagram</a>
+		<a href="mailto:kylegwon@gmail.com">Email</a>
+		<a href="https://github.com/KyleGwon?tab=repositories">Github</a>
+	</div>
+	<p class="cust-offset-first white" id="home">
+	<div class="cust-container white">
+		<div class="row">
+			<div class="col-md-8 my-auto">
+				<center><h1 class="portrait-text">My Name is</h1></center>
+				<center><h1 class="portrait-text" id="name">Kyle Gwon</h1></center>
+				<center><a class="btn learn-more" id="special-btn" href="#about-me">Click Here To Learn More</a></center>
+			</div>
+			<div class="col-md-4">
+				<center>
+					<img src="Kyle-Photoshop.png" class="portrait">
+				</center>
+			</div>
+		</div>
+	</div>
+	<p class="cust-offset white" id="about-me"></p>
+	<div class="blue about-me-padding">
+		<center><h1 id="about-me" class="bigger white-color">About Me</h1></center>
+		<center><p class="small paragraph-padding bottom-padding"><!-- My name is Kyle Gwon. I am a programmer, musician, soccer player, and ex-taekwondo student. I am in the Charles DeWolf seventh grade band, playing the saxophone. I started to play in the band since fourth grade. I have played the piano since I was 5 years old, going on to earn my 3rd trophy from the New Jersey Federation of Music Clubs's <a href="http://njfmc.org/festivals.php" id="bright-special" class="underline-animation">Junior Festivals</a>. I play soccer for the U14 Navy Northern Valley Knights. We are currently in the second EDP flight in New Jersey and ranked number 21 in New Jersey Region 1. I did Taekwondo from age 5 to 11, earning a second-degree black belt. -->My name is Kyle Gwon. I am an ex-taekwondo student, musician, soccer player, and programmer. In my earlier days, I trained in Taekwondo for six years, achieving the high rank of a second-degree black belt. However, as my interests began to wane, I decided to focus my passion among the likes of music and soccer. I’ve been taking private lessons in piano for the past nine years, and in that time span, I’ve earned three trophies from the New Jersey Federation of Music Clubs’ Junior Festivals, each of which take three years to earn. As I’ve continued to explore the creative and artistic side of my brain, I’ve learned to play both the saxophone and ukulele. I currently play saxophone in the Charles DeWolf 7th grade band, but I’ve taken the initiative to learn the ukulele of my own volition. Apart from music, soccer is an instrumental part of my life. I currently play for the U14 Northern Valley Knights, Old Tappan Recreational Team, and Old Tappan Pascack Valley Indoor Soccer League (PVISL) Team. My Northern Valley club team is currently situated in the second flight of the Eastern Development Program (EDP) league as well as ranked 21st in New Jersey Region 1 for our age group. I have won multiple Championship Titles for both my PVISL and recreational teams. In addition to these titles, my Northern Valley Knights team has won multiple tournaments, such as the EDP Division 1 Championship. And while I’ve continued to explore my passions, I’ve come to fall in love with the language of programming, only adding to my wide variety of talents.</p></center>
+	</div>
+	<p class="cust-offset blue" id="coding-background"></p>
+	<div class="white coding-background-padding">
+		<center><h1 class="bigger black-color">My Coding Background</h1></center>
+		<center><p class="small paragraph-padding bottom-padding"><!-- I started off using <a href="https://www.codecademy.com/learn/learn-python" id="dark-special" class="underline-animation">Codecademy</a> to learn Python. However, it was not as helpful as having physical person teaching me, so I got my oldest brother to teach me. He gave me weekly challenges from Swarthmore’s <a href="https://www.cs.swarthmore.edu/courses/CS21Labs/s18/?section=1" id="dark-special" class="underline-animation">Intro to Computer Science</a>. He, and the website, helped me learn Python. As for HTML and CSS, I learned them on my own. I used the <a href="https://www.udemy.com/the-web-developer-bootcamp/" id="dark-special" class="underline-animation">Web Developer Bootcamp</a> from Udemy, which teaches you HTML, CSS, and JavaScript. I am currently completing the course. -->After attending a Bergen County Academies <i>Flash session</i>, I discovered I had a strong passion for computer science. On my own, I started to explore the website Codecademy to learn the programming language of Python. While I found it helpful, I realized that I could utilize the resources around me to further my coding knowledge. As my older brother Kenny is a computer science major at Swarthmore College, I decided to ask him to assist in furthering my computer science knowledge. To introduce me to the subject matter, he gave me weekly challenges from Swarthmore’s Intro to Computer Science. He, in conjunction with Codecademy, ultimately taught me the basics of Python. 
+		<br>
+		Eventually, I began to delve into the languages of HTML and CSS. With the goal of creating my own website, I took the Web Developer Bootcamp course on Udemy, which taught me the basics of HTML, CSS, and JavaScript. I am currently in the process of completing the course. 
+</p></center>
+	</div>
+	<p class="cust-offset white" id="projects"></p>
+	<div class="cust-container projects-padding">
+		<center><h1 class="bigger white-color">Projects</h1></center>
+		<div class="row project-row-padding">
+			<div class="col-md-12">
+				<center><p class="bigger"><a href="website.html" id="bright-special">My Website</a></p></center>
+			</div>
+		</div>
+		<div class="row project-row-padding">
+			<div class="col-md-4">
+				<center><p class="project-heading"><a href="daycaresorter.html" id="bright-special">Daycare Sorter Program</a></p></center>
+				<center><img class="projects-picture" src="daycare.jpg"></center>
+			</div>
+			<div class="col-md-4">
+				<center><p class="project-heading"><a href="pokerhand.html" id="bright-special">Two Card Poker Probability</a></p></center>
+				<center><img class="projects-picture" src="poker-hand.jpg"></center>
+			</div>
+			<div class="col-md-4">
+				<center><p class="project-heading"><a href="minesweeper.html" id="bright-special">Minesweeper Remake</a></p></center>
+				<center><img class="projects-picture" src="minesweeper.png"></center>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "225px";
+		document.getElementById("main").style.marginLeft = "225px";
+		document.getElementById("main").style.transition = "all 0.5s";
+}
+
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
